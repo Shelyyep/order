@@ -26,7 +26,6 @@ public class CategoryManagerImpl implements CategoryManager {
         if (categories == null || categories.size() == 0 || categories.size() > 1) {
             return null;
         }
-
         return categories.get(0);
     }
 
